@@ -11,10 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11ed861c-2719-4ac5-b791-85b940144665" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waterMark.cpp" afterPath="$PROJECT_DIR$/waterMark.cpp" />
-    </list>
+    <list default="true" id="11ed861c-2719-4ac5-b791-85b940144665" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -323,12 +320,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493534358818</updated>
       <workItem from="1493534360539" duration="5647000" />
-      <workItem from="1493559982586" duration="8807000" />
+      <workItem from="1493559982586" duration="9238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14454000" />
+    <option name="totallyTimeSpent" value="14885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="52" width="928" height="1028" extended-state="4" />

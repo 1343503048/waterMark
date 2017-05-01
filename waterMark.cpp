@@ -4,6 +4,7 @@
 
 #include "waterMark.h"
 
+// 以灰度图像模式读入图像
 void waterMark::loadImg(const char *filename) {
     srcImg = imread(filename, IMREAD_GRAYSCALE);
     if(!srcImg.data) {
@@ -11,6 +12,7 @@ void waterMark::loadImg(const char *filename) {
     }
 }
 
+// 转化为二值图像
 void waterMark::toBinImg() {
     threshold(srcImg, binImg, 125, UCHAR_MAX, THRESH_BINARY);
 }

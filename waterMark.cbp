@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="waterMark" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\opencv-3.0.0-alpha\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/zq/CLionProjects/waterMark" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/zq/CLionProjects/waterMark" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/zq/CLionProjects/waterMark" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="decode">
+         <Option output="/home/zq/CLionProjects/waterMark/decode" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zq/CLionProjects/waterMark" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 decode" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="decode/fast">
+         <Option output="/home/zq/CLionProjects/waterMark/decode" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zq/CLionProjects/waterMark" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 decode/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="encode">
+         <Option output="/home/zq/CLionProjects/waterMark/encode" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zq/CLionProjects/waterMark" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 encode" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="encode/fast">
+         <Option output="/home/zq/CLionProjects/waterMark/encode" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zq/CLionProjects/waterMark" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 encode/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zq/CLionProjects/waterMark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/zq/CLionProjects/waterMark/decode.cpp">
+         <Option target="decode"/>
+      </Unit>
+      <Unit filename="/home/zq/CLionProjects/waterMark/encode.cpp">
+         <Option target="encode"/>
+      </Unit>
+      <Unit filename="/home/zq/CLionProjects/waterMark/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zq/CLionProjects/waterMark/../../opencv-3.0.0-alpha/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\opencv-3.0.0-alpha\" />
+      </Unit>
+      <Unit filename="/home/zq/CLionProjects/waterMark/../../opencv-3.0.0-alpha/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\opencv-3.0.0-alpha\" />
+      </Unit>
+      <Unit filename="/home/zq/CLionProjects/waterMark/../../opencv-3.0.0-alpha/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\opencv-3.0.0-alpha\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

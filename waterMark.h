@@ -9,21 +9,12 @@
 #include <iostream>
 using namespace cv;
 using namespace std;
-
-class waterMark {
-public:
-    waterMark();
-    waterMark(const waterMark&);
-    void loadImg(const char* filename);
-    void loadBinImg(const char* wmFilename);
-    void toBinImg();
-    ~waterMark();
-private:
-    Mat srcImg;
-    Mat binImg;     // 二值图像
-    Mat wmImg;
-    Mat wmBinImg;
-};
-
+void loadImg(Mat &img, const char* filename);
+void toBinImg(Mat &srcImg, Mat &binImg, double thresholdValue);
+void show(Mat &img);
+void show(Mat &img, const char *title);
+void insert();
+double dist(int x0, int y0, int x, int y);
+int getR(const Mat &a, int i, int j);
 
 #endif //WATERMARK_WATERMARK_H

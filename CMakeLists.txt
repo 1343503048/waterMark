@@ -1,10 +1,15 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5)
 project(waterMark)
-find_package(OpenCV REQUIRED)
 
 set(CMAKE_CXX_STANDARD 11)
+find_package(OpenCV REQUIRED)
 
-set(SOURCE_FILES main.cpp waterMark.cpp waterMark.h)
-add_executable(waterMark ${SOURCE_FILES} waterMark.cpp waterMark.h)
+set(SOURCE_FILES
+        main.cpp
+        waterMark.cpp
+        waterMark.h encode.cpp)
 
-target_link_libraries(waterMark ${OpenCV_LIBS})
+add_executable(encode encode.cpp)
+add_executable(decode decode.cpp)
+target_link_libraries(encode ${OpenCV_LIBS})
+target_link_libraries(decode ${OpenCV_LIBS})

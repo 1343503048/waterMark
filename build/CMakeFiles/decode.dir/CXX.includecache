@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zq/CLionProjects/waterMark/decode.cpp
+iostream
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/core.hpp
+-
+opencv2/imgproc.hpp
+-
+opencv2/photo.hpp
+-
+opencv2/video.hpp
+-
+opencv2/features2d.hpp
+-
+opencv2/objdetect.hpp
+-
+opencv2/calib3d.hpp
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/videoio.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/ml.hpp
+-
+

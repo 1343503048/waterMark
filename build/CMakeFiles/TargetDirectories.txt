@@ -1,0 +1,4 @@
+/home/zq/CLionProjects/waterMark/build/CMakeFiles/edit_cache.dir
+/home/zq/CLionProjects/waterMark/build/CMakeFiles/rebuild_cache.dir
+/home/zq/CLionProjects/waterMark/build/CMakeFiles/decode.dir
+/home/zq/CLionProjects/waterMark/build/CMakeFiles/encode.dir
